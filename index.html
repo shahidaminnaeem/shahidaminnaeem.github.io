@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+        content="Shahid Amin Naeem: research in high-energy nuclear and particle physics, scientific machine learning, and scientific computing.">
+  <title>Shahid Amin Naeem | Researcher</title>
+  <style>
+    :root {
+      --ink: #192c40;
+      --muted: #536477;
+      --accent: #166b78;
+      --paper: #faf9f6;
+      --line: #dedfdc;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Arial, sans-serif;
+      line-height: 1.75;
+    }
+    a { color: var(--accent); text-underline-offset: 4px; }
+    a:hover { color: #103f49; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+    .wrap { max-width: 1060px; margin: auto; padding: 0 28px; }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding: 22px 0;
+    }
+    .header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .name { font-weight: bold; text-decoration: none; color: var(--ink); }
+    nav { display: flex; flex-wrap: wrap; gap: 22px; }
+    nav a { color: var(--muted); text-decoration: none; font-size: 14px; }
+    .hero { padding: 90px 0 65px; }
+    .eyebrow {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 {
+      font-family: Georgia, serif;
+      font-weight: normal;
+      font-size: clamp(40px, 6vw, 68px);
+      margin: 18px 0;
+    }
+    .subtitle { font-size: 21px; color: var(--muted); margin-bottom: 8px; }
+    .intro { max-width: 720px; font-size: 18px; }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .links a {
+      padding: 8px 15px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      background: white;
+    }
+    section { padding: 42px 0; border-top: 1px solid var(--line); }
+    h2 {
+      font-family: Georgia, serif;
+      font-weight: normal;
+      font-size: 32px;
+      margin: 0 0 22px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+    .card {
+      padding: 25px;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+    }
+    h3 { font-size: 18px; margin: 0 0 12px; }
+    .card p { color: var(--muted); margin: 0; font-size: 15px; }
+    .education { padding: 15px 0; }
+    .education + .education { border-top: 1px solid var(--line); }
+    .education p { margin: 3px 0; color: var(--muted); }
+    footer { padding: 35px 0; color: var(--muted); font-size: 13px; }
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 55px 0 40px; }
+      .wrap { padding: 0 22px; }
+      nav { gap: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap header-row">
+      <a class="name" href="#">Shahid Amin Naeem</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Physics · Computation · Data</div>
+      <h1>Shahid Amin Naeem</h1>
+      <p class="subtitle">Researcher in High-Energy Nuclear and Particle Physics</p>
+      <p>Georgia State University · Atlanta, United States</p>
+      <p class="intro">
+        I study nuclear and particle physics through experimental data
+        analysis, statistical modeling, and scientific computing.
+        My research includes work at the Relativistic Heavy Ion Collider
+        at Brookhaven National Laboratory.
+      </p>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en">
+          Google Scholar
+        </a>
+        <a href="https://orcid.org/0009-0009-7428-3713">ORCID</a>
+        <a href="https://www.linkedin.com/in/shahidaminnaeem/">LinkedIn</a>
+        <a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem">
+          ResearchGate
+        </a>
+      </div>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        My research interests span high-energy nuclear and particle physics,
+        scientific machine learning, and numerical simulation.
+        I combine computational methods with data analysis to investigate
+        physical systems and interpret experimental measurements.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research interests</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Nuclear and particle physics</h3>
+          <p>
+            Experimental measurements at RHIC, including inclusive jet
+            transverse single-spin asymmetries with sPHENIX.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Scientific machine learning</h3>
+          <p>
+            Data-driven methods, statistical modeling, and machine
+            learning applications in scientific research.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Scientific computing</h3>
+          <p>
+            Numerical simulation, Monte Carlo methods, and computational
+            approaches to physical and mathematical problems.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p>
+        Browse my research papers, conference contributions, and
+        collaboration publications through my academic profiles.
+      </p>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en">
+          Publications on Google Scholar
+        </a>
+        <a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem">
+          Research on ResearchGate
+        </a>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education">
+        <h3>Georgia State University</h3>
+        <p>Physics · Studies beginning in 2023</p>
+      </div>
+      <div class="education">
+        <h3>COMSATS University Islamabad</h3>
+        <p>Physics · 2019–2021</p>
+      </div>
+      <div class="education">
+        <h3>Bahauddin Zakariya University</h3>
+        <p>Physics · 2013–2018</p>
+      </div>
+    </section>
+
+    <section id="connect">
+      <h2>Connect</h2>
+      <p>
+        For research discussions and professional connections,
+        reach me through
+        <a href="https://www.linkedin.com/in/shahidaminnaeem/">LinkedIn</a>
+        or
+        <a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem">
+          ResearchGate</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    © Shahid Amin Naeem
+  </footer>
+</body>
+</html>
