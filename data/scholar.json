@@ -1,1 +1,146 @@
-{"updated_at": null, "metrics": {}, "articles": []}
+{
+  "updated_at": "2026-11-17T21:25:24.516393+00:00",
+  "author_id": "IRyoBd8AAAAJ",
+  "metrics": {
+    "citations": 59,
+    "h_index": 5,
+    "i10_index": 2
+  },
+  "articles": [
+    {
+      "title": "First Measurement of Inclusive Jet Transverse Single Spin Asymmetries at sPHENIX",
+      "authors": "M Shahid",
+      "publication": "XV International Conference on New Frontiers in Physics, August 19-30, 2026 …, 2026",
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:WF5omc3nYNoC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "arXiv: ePIC Early Science Report",
+      "authors": "D Abbott, P Sznajder, K Kumar, M Zurek, G Ottino, GE Bruno, B Kim, ...",
+      "publication": "",
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:roLk4NBRz8UC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "ePIC Early Science Report",
+      "authors": "D Abbott, N Abdelrahman, S Abhijit, I Abualrob, RB Achari, J Adam, ...",
+      "publication": "arXiv preprint arXiv:2608.05377, 2026",
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:ufrVoPGSRksC",
+      "citations": 1,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7303672304638422965"
+    },
+    {
+      "title": "Measurement of isolated prompt photon production in p+p collisions at GeV with the sPHENIX detector",
+      "authors": "MI Abdulhamid, U Acharya, ER Adams, G Adawi, CA Aidala, Y Akiba, ...",
+      "publication": "arXiv:2607.03892, 2026",
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:eQOLeE2rZwMC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "Measurement of dijet transverse momentum imbalance and azimuthal acoplanarity in + collisions at GeV with the sPHENIX detector",
+      "authors": "MI Abdulhamid, U Acharya, ER Adams, G Adawi, I Ahmed, CA Aidala, ...",
+      "publication": "arXiv preprint arXiv:2606.17184, 2026",
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:LkGwnXOMwfcC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "Impact of nuclear deformation on particle production in collisions at \\texorpdfstring{\\five}{sqrt(sNN)=5.36 TeV} from AMPT-SM",
+      "authors": "MU Ashraf, AM Khan, M Shahid, FM Mehdi",
+      "publication": "arXiv preprint arXiv:2604.20152, 2026",
+      "year": "2026",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:_FxGoFyzp5QC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "First Measurement of Inclusive Jet Transverse Single Spin Asymmetries at sPHENIX",
+      "authors": "M Shahid, M Sarsour",
+      "publication": "American Physical Society (APS) Division of Nuclear Physics (DNP) 9 (1), 2025",
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:Tyk-4Ss8FVUC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "Measurement of charged hadron multiplicity in Au+ Au collisions at = 200 GeV with the sPHENIX detector",
+      "authors": "MI Abdulhamid, U Acharya, ER Adams, G Adawi, CA Aidala, Y Akiba, ...",
+      "publication": "Journal of High Energy Physics 2025 (8), 1-23, 2025",
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:Y0pCki6q_DkC",
+      "citations": 9,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6399923265115908697"
+    },
+    {
+      "title": "Measurement of the transverse energy density in Au+ Au collisions at GeV with the sPHENIX detector",
+      "authors": "MI Abdulhamid, U Acharya, ER Adams, G Adawi, CA Aidala, Y Akiba, ...",
+      "publication": "Physical Review C 112 (2), 024908, 2025",
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:zYLM7Y9cAGgC",
+      "citations": 9,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16345362906624681356"
+    },
+    {
+      "title": "Measurement of the transverse energy density in Au+ Au collisions at GeV with the sPHENIX detector",
+      "authors": "MI Abdulhamid, U Acharya, ER Adams, G Adawi, CA Aidala, Y Akiba, ...",
+      "publication": "Phys. Rev. C 112 (2025) 024908 https://doi.org/10.1103/h8d5-swg6, 2025",
+      "year": "2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:qjMakFHDy7sC",
+      "citations": null,
+      "citations_link": ""
+    },
+    {
+      "title": "Tumor Detection in MRI Data using Deep Learning Techniques for Image Classification and Semantic Segmentation",
+      "authors": "M Abid, M Shahid",
+      "publication": "Sustainable Machine Intelligence Journal 9, 1-13, 2024",
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:2osOgNQ5qMEC",
+      "citations": 14,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4728867795124684474"
+    },
+    {
+      "title": "Data-Driven Evaluation of Background Radiation Safety Using Machine Learning and Statistical Analysis",
+      "authors": "M Abid, M Shahid",
+      "publication": "Big Data and Computing Visions, 2024",
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:d1gkVwhDpl0C",
+      "citations": 8,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7361789033356774258"
+    },
+    {
+      "title": "A Novel Numerical Treatment to One Dimensional Heat and Wave Equations with Second Order Accuracy",
+      "authors": "M Abid, M Shahid",
+      "publication": "Computational Algorithms and Numerical Dimensions, 2024",
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:9yKSN-GCB0IC",
+      "citations": 3,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15916125177196325865"
+    },
+    {
+      "title": "A Novel Computational Analysis of Boundary Driven Two Dimensional Heat Flow with the Internal Heat Generation",
+      "authors": "M Abid, M Bibi, N Yasin, M Shahid",
+      "publication": "Computational Algorithms and Numerical Dimensions, 2024",
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:u5HHmVD_uO8C",
+      "citations": 11,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13823526437389300793"
+    },
+    {
+      "title": "Enhancing charge transport and stability in perovskite solar cells via integration with porous copper-based metal-organic frameworks",
+      "authors": "M Abid, M Yasin, M Shahid, S Murtaza",
+      "publication": "J. Sustain. Energy 3 (3), 139-153, 2024",
+      "year": "2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=IRyoBd8AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=IRyoBd8AAAAJ:u-x6o8ySG0sC",
+      "citations": 4,
+      "citations_link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6452834183100001230"
+    }
+  ]
+}
