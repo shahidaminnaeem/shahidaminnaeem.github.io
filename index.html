@@ -7,96 +7,309 @@
         content="Shahid Amin Naeem: research in high-energy nuclear and particle physics, scientific machine learning, and scientific computing.">
   <title>Shahid Amin Naeem | Researcher</title>
   <style>
-    :root {
-      --ink: #192c40;
-      --muted: #536477;
-      --accent: #166b78;
-      --paper: #faf9f6;
-      --line: #dedfdc;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: var(--paper);
-      color: var(--ink);
-      font-family: Arial, sans-serif;
-      line-height: 1.75;
-    }
-    a { color: var(--accent); text-underline-offset: 4px; }
-    a:hover { color: #103f49; }
-    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
-    .wrap { max-width: 1060px; margin: auto; padding: 0 28px; }
-    header {
-      border-bottom: 1px solid var(--line);
-      padding: 22px 0;
-    }
-    .header-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .name { font-weight: bold; text-decoration: none; color: var(--ink); }
-    nav { display: flex; flex-wrap: wrap; gap: 22px; }
-    nav a { color: var(--muted); text-decoration: none; font-size: 14px; }
-    .hero { padding: 90px 0 65px; }
-    .eyebrow {
-      color: var(--accent);
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-    h1, h2, h3 { line-height: 1.2; }
-    h1 {
-      font-family: Georgia, serif;
-      font-weight: normal;
-      font-size: clamp(40px, 6vw, 68px);
-      margin: 18px 0;
-    }
-    .subtitle { font-size: 21px; color: var(--muted); margin-bottom: 8px; }
-    .intro { max-width: 720px; font-size: 18px; }
-    .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-    .links a {
-      padding: 8px 15px;
-      border: 1px solid var(--line);
-      border-radius: 5px;
-      text-decoration: none;
-      font-size: 14px;
-      background: white;
-    }
-    section { padding: 42px 0; border-top: 1px solid var(--line); }
-    h2 {
-      font-family: Georgia, serif;
-      font-weight: normal;
-      font-size: 32px;
-      margin: 0 0 22px;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 22px;
-    }
-    .card {
-      padding: 25px;
-      background: white;
-      border: 1px solid var(--line);
-      border-radius: 7px;
-    }
-    h3 { font-size: 18px; margin: 0 0 12px; }
-    .card p { color: var(--muted); margin: 0; font-size: 15px; }
-    .education { padding: 15px 0; }
-    .education + .education { border-top: 1px solid var(--line); }
-    .education p { margin: 3px 0; color: var(--muted); }
-    footer { padding: 35px 0; color: var(--muted); font-size: 13px; }
-    @media (max-width: 760px) {
-      .grid { grid-template-columns: 1fr; }
-      .hero { padding: 55px 0 40px; }
-      .wrap { padding: 0 22px; }
-      nav { gap: 15px; }
-    }
+:root {
+  --ink: #182536;
+  --muted: #596579;
+  --accent: #175a91;
+  --paper: #ffffff;
+  --line: #e2e7ed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+
+.wrap {
+  width: min(1160px, calc(100% - 80px));
+  margin: 0 auto;
+}
+
+header {
+  background: #fff;
+  border-top: 4px solid #173b60;
+  border-bottom: 1px solid var(--line);
+}
+
+.header-row {
+  min-height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.3px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+
+nav a {
+  color: #485569;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+main.wrap {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  column-gap: 76px;
+  align-items: start;
+  padding-top: 64px;
+  padding-bottom: 60px;
+}
+
+.hero {
+  grid-column: 1;
+  grid-row: 1 / span 5;
+  position: sticky;
+  top: 40px;
+  padding: 26px 25px;
+  background: #f4f7fa;
+  border-top: 4px solid #173b60;
+  border-radius: 0 0 6px 6px;
+}
+
+.eyebrow {
+  color: #617187;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 37px;
+  line-height: 1.12;
+  font-weight: 750;
+  letter-spacing: -1.4px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 600;
+  color: #334b64;
+  margin-bottom: 16px;
+}
+
+.hero > p:not(.subtitle):not(.intro) {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.intro {
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.85;
+  margin-top: 24px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin-top: 20px;
+}
+
+.links a {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero .links {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 9px;
+  padding-top: 20px;
+  border-top: 1px solid #d9e1ea;
+}
+
+section {
+  grid-column: 2;
+  padding: 32px 0;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: 30px;
+}
+
+section:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 650;
+  line-height: 1.3;
+  letter-spacing: -0.6px;
+  margin: 0 0 20px;
+}
+
+section > p {
+  margin: 0 0 16px;
+  color: #465367;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.card {
+  padding: 0 0 0 18px;
+  border-left: 3px solid #c8d8e7;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.5;
+  margin: 0 0 6px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.education {
+  padding: 15px 0;
+}
+
+.education + .education {
+  border-top: 1px solid var(--line);
+}
+
+.education p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+footer.wrap {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+@media (min-width: 1500px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrap {
+    width: calc(100% - 44px);
+  }
+
+  main.wrap {
+    grid-template-columns: 250px minmax(0, 1fr);
+    column-gap: 36px;
+    padding-top: 40px;
+  }
+
+  .hero {
+    padding: 24px 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  nav {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 680px) {
+  .header-row {
+    padding: 18px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  nav {
+    gap: 10px 18px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  main.wrap {
+    display: block;
+    padding-top: 28px;
+  }
+
+  .hero {
+    position: static;
+    margin-bottom: 36px;
+    padding: 28px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .hero .links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section:first-of-type {
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+  }
+
+  section {
+    padding: 28px 0;
+  }
+}
   </style>
 </head>
 <body>
