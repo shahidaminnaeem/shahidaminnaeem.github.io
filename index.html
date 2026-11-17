@@ -1,439 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-        content="Shahid Amin Naeem: research in high-energy nuclear and particle physics, scientific machine learning, and scientific computing.">
-  <title>Shahid Amin Naeem | Researcher</title>
-  <style>
-:root {
-  --ink: #182536;
-  --muted: #596579;
-  --accent: #175a91;
-  --paper: #ffffff;
-  --line: #e2e7ed;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.8;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-a:focus-visible {
-  outline: 3px solid var(--accent);
-  outline-offset: 5px;
-}
-
-.wrap {
-  width: min(1160px, calc(100% - 80px));
-  margin: 0 auto;
-}
-
-header {
-  background: #fff;
-  border-top: 4px solid #173b60;
-  border-bottom: 1px solid var(--line);
-}
-
-.header-row {
-  min-height: 78px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-}
-
-.name {
-  font-size: 17px;
-  font-weight: 700;
-  color: var(--ink);
-  letter-spacing: -0.3px;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 26px;
-}
-
-nav a {
-  color: #485569;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-main.wrap {
-  display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
-  column-gap: 76px;
-  align-items: start;
-  padding-top: 64px;
-  padding-bottom: 60px;
-}
-
-.hero {
-  grid-column: 1;
-  grid-row: 1 / span 5;
-  position: sticky;
-  top: 40px;
-  padding: 26px 25px;
-  background: #f4f7fa;
-  border-top: 4px solid #173b60;
-  border-radius: 0 0 6px 6px;
-}
-
-.eyebrow {
-  color: #617187;
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 1.3px;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 37px;
-  line-height: 1.12;
-  font-weight: 750;
-  letter-spacing: -1.4px;
-  margin: 20px 0;
-}
-
-.subtitle {
-  font-size: 16px;
-  line-height: 1.55;
-  font-weight: 600;
-  color: #334b64;
-  margin-bottom: 16px;
-}
-
-.hero > p:not(.subtitle):not(.intro) {
-  font-size: 13px;
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.intro {
-  font-size: 14px;
-  color: var(--muted);
-  line-height: 1.85;
-  margin-top: 24px;
-}
-
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 18px;
-  margin-top: 20px;
-}
-
-.links a {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.hero .links {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 9px;
-  padding-top: 20px;
-  border-top: 1px solid #d9e1ea;
-}
-
-section {
-  grid-column: 2;
-  padding: 32px 0;
-  border-top: 1px solid var(--line);
-  scroll-margin-top: 30px;
-}
-
-section:first-of-type {
-  padding-top: 0;
-  border-top: none;
-}
-
-h2 {
-  font-size: 25px;
-  font-weight: 650;
-  line-height: 1.3;
-  letter-spacing: -0.6px;
-  margin: 0 0 20px;
-}
-
-section > p {
-  margin: 0 0 16px;
-  color: #465367;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-
-.card {
-  padding: 0 0 0 18px;
-  border-left: 3px solid #c8d8e7;
-}
-
-h3 {
-  font-size: 16px;
-  font-weight: 650;
-  line-height: 1.5;
-  margin: 0 0 6px;
-}
-
-.card p {
-  margin: 0;
-  font-size: 15px;
-  color: var(--muted);
-}
-
-.education {
-  padding: 15px 0;
-}
-
-.education + .education {
-  border-top: 1px solid var(--line);
-}
-
-.education p {
-  margin: 3px 0 0;
-  font-size: 14px;
-  color: var(--muted);
-}
-
-footer.wrap {
-  border-top: 1px solid var(--line);
-  padding-top: 22px;
-  padding-bottom: 30px;
-  font-size: 12px;
-  color: var(--muted);
-}
-
-@media (min-width: 1500px) {
-  body {
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 900px) {
-  .wrap {
-    width: calc(100% - 44px);
-  }
-
-  main.wrap {
-    grid-template-columns: 250px minmax(0, 1fr);
-    column-gap: 36px;
-    padding-top: 40px;
-  }
-
-  .hero {
-    padding: 24px 20px;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  nav {
-    gap: 16px;
-  }
-}
-
-@media (max-width: 680px) {
-  .header-row {
-    padding: 18px 0;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-  }
-
-  nav {
-    gap: 10px 18px;
-  }
-
-  nav a {
-    font-size: 13px;
-  }
-
-  main.wrap {
-    display: block;
-    padding-top: 28px;
-  }
-
-  .hero {
-    position: static;
-    margin-bottom: 36px;
-    padding: 28px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-
-  .hero .links {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  section:first-of-type {
-    padding-top: 28px;
-    border-top: 1px solid var(--line);
-  }
-
-  section {
-    padding: 28px 0;
-  }
-}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Shahid Amin Naeem. Research in particle physics, nuclear physics, scientific computing, and machine learning.">
+<title>Shahid's Homepage | Shahid Amin Naeem</title>
+<style>
+:root{--ink:#1c2939;--muted:#526174;--blue:#175c92;--line:#e1e7ed;--soft:#f4f7fa}*{box-sizing:border-box}body{margin:0;color:var(--ink);background:#fff;font:16px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:4px}a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #4389bd;outline-offset:5px}.wrap{width:min(1160px,calc(100% - 64px));margin:auto}header{border-top:4px solid #173b60;border-bottom:1px solid var(--line)}header .wrap{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-weight:700;color:var(--ink);font-size:18px}nav{display:flex;gap:32px;align-self:stretch}nav a{display:flex;align-items:center;color:var(--muted);font-size:15px;border-bottom:3px solid transparent;padding-top:3px}nav a[aria-current=page]{color:var(--blue);border-color:var(--blue);font-weight:650}main{display:grid;grid-template-columns:290px minmax(0,1fr);gap:72px;align-items:start;padding:58px 0 70px}.profile{position:sticky;top:28px;border-top:4px solid #173b60;background:var(--soft);padding:28px 25px;border-radius:0 0 7px 7px}.portrait{width:160px;height:160px;border-radius:50%;display:block;margin:0 auto 24px;object-fit:cover;background:#dce5ef;border:5px solid white;box-shadow:0 0 0 1px #d6dfe9}h1{font-size:31px;letter-spacing:-1px;line-height:1.2;margin:0 0 17px;font-weight:750}.specialties{font-size:13px;line-height:1.95;color:#35516e;margin:0}.affiliation{color:var(--muted);font-size:13px;margin:20px 0}.social{list-style:none;padding:20px 0 0;margin:20px 0 0;border-top:1px solid #d8e1eb}.social li+li{margin-top:11px}.social a{display:flex;align-items:center;gap:12px;font-size:14px;font-weight:550}.icon{width:20px;height:20px;flex:none;display:inline-block}.content{min-width:0}h2{font-size:30px;line-height:1.3;letter-spacing:-.8px;margin:0 0 25px}p{color:var(--muted);margin:0 0 20px}h3{line-height:1.5;font-size:18px;margin:0 0 9px;font-weight:650}.connect{border-top:1px solid var(--line);margin-top:35px;padding-top:30px}.connect h3{font-size:24px;margin-bottom:18px;letter-spacing:-.4px}.research-item{padding:0 0 24px 20px;margin-bottom:24px;border-left:3px solid #cadceb;border-bottom:1px solid var(--line)}.research-item:last-child{margin-bottom:0}.research-item p{margin:0;font-size:15px}.button{display:inline-flex;align-items:center;gap:9px;background:#173b60;color:#fff;padding:9px 17px;border-radius:5px;font-size:14px;font-weight:600}.button:hover{background:#225781;text-decoration:none}.pub-header{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:22px}.pub-header h2{margin:0}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:26px 0}.metric{border:1px solid var(--line);padding:16px;background:var(--soft);border-radius:5px}.metric strong{display:block;font-size:28px;line-height:1.4}.metric span{font-size:13px;color:var(--muted)}.tools{display:flex;gap:12px;margin:24px 0}input,select{font:inherit;font-size:14px;border:1px solid #cbd6e1;border-radius:4px;padding:10px;background:#fff;color:var(--ink)}input{flex:1;min-width:0}.paper{border-top:1px solid var(--line);padding:23px 0}.paper h3{font-size:17px}.paper p{font-size:14px;margin:5px 0}.paper .meta{font-size:13px;color:#6d7c8c}.sync-status{font-size:12px;color:#6d7c8c;margin-top:18px}.empty{border:1px solid var(--line);padding:25px;background:var(--soft);border-radius:5px}.empty p:last-child{margin-bottom:0}footer{border-top:1px solid var(--line);padding:22px 0;font-size:12px;color:#6d7c8c}[hidden]{display:none!important}@media(max-width:950px){main{gap:35px;grid-template-columns:260px minmax(0,1fr)}.wrap{width:calc(100% - 44px)}}@media(max-width:700px){header .wrap{flex-direction:column;align-items:flex-start;gap:8px;padding-top:18px}nav{gap:24px}nav a{padding:10px 0}main{display:block;padding-top:28px}.profile{position:static;margin-bottom:35px}.portrait{width:145px;height:145px}h1{text-align:center}.specialties,.affiliation{text-align:center}.social{display:flex;flex-wrap:wrap;gap:12px 20px}.social li+li{margin:0}.pub-header{align-items:flex-start;flex-direction:column}.tools{flex-direction:column}.metric{padding:12px}.metric strong{font-size:24px}h2{font-size:27px}}
+</style>
 </head>
 <body>
-  <header>
-    <div class="wrap header-row">
-      <a class="name" href="#">Shahid Amin Naeem</a>
-      <nav aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#connect">Connect</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="wrap">
-    <div class="hero">
-      <div class="eyebrow">Physics · Computation · Data</div>
-      <h1>Shahid Amin Naeem</h1>
-      <p class="subtitle">Researcher in High-Energy Nuclear and Particle Physics</p>
-      <p>Georgia State University · Atlanta, United States</p>
-      <p class="intro">
-        I study nuclear and particle physics through experimental data
-        analysis, statistical modeling, and scientific computing.
-        My research includes work at the Relativistic Heavy Ion Collider
-        at Brookhaven National Laboratory.
-      </p>
-      <div class="links">
-        <a href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en">
-          Google Scholar
-        </a>
-        <a href="https://orcid.org/0009-0009-7428-3713">ORCID</a>
-        <a href="https://www.linkedin.com/in/shahidaminnaeem/">LinkedIn</a>
-        <a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem">
-          ResearchGate
-        </a>
-      </div>
-    </div>
-
-    <section id="about">
-      <h2>About</h2>
-      <p>
-        My research interests span high-energy nuclear and particle physics,
-        scientific machine learning, and numerical simulation.
-        I combine computational methods with data analysis to investigate
-        physical systems and interpret experimental measurements.
-      </p>
-    </section>
-
-    <section id="research">
-      <h2>Research interests</h2>
-      <div class="grid">
-        <article class="card">
-          <h3>Nuclear and particle physics</h3>
-          <p>
-            Experimental measurements at RHIC, including inclusive jet
-            transverse single-spin asymmetries with sPHENIX.
-          </p>
-        </article>
-        <article class="card">
-          <h3>Scientific machine learning</h3>
-          <p>
-            Data-driven methods, statistical modeling, and machine
-            learning applications in scientific research.
-          </p>
-        </article>
-        <article class="card">
-          <h3>Scientific computing</h3>
-          <p>
-            Numerical simulation, Monte Carlo methods, and computational
-            approaches to physical and mathematical problems.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="publications">
-      <h2>Publications</h2>
-      <p>
-        Browse my research papers, conference contributions, and
-        collaboration publications through my academic profiles.
-      </p>
-      <div class="links">
-        <a href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en">
-          Publications on Google Scholar
-        </a>
-        <a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem">
-          Research on ResearchGate
-        </a>
-      </div>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <div class="education">
-        <h3>Georgia State University</h3>
-        <p>Physics · Studies beginning in 2023</p>
-      </div>
-      <div class="education">
-        <h3>COMSATS University Islamabad</h3>
-        <p>Physics · 2019–2021</p>
-      </div>
-      <div class="education">
-        <h3>Bahauddin Zakariya University</h3>
-        <p>Physics · 2013–2018</p>
-      </div>
-    </section>
-
-    <section id="connect">
-      <h2>Connect</h2>
-      <p>
-        For research discussions and professional connections,
-        reach me through
-        <a href="https://www.linkedin.com/in/shahidaminnaeem/">LinkedIn</a>
-        or
-        <a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem">
-          ResearchGate</a>.
-      </p>
-    </section>
-  </main>
-
-  <footer class="wrap">
-    © Shahid Amin Naeem
-  </footer>
-</body>
-</html>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+<symbol id="scholar-icon" viewBox="0 0 24 24"><path fill="#4285f4" d="M12 2 0 9l12 7 12-7z"/><path fill="#174ea6" d="M5 12v6c4 4 10 4 14 0v-6l-7 4z"/><path stroke="#4285f4" stroke-width="2" d="M2 10v9"/></symbol>
+<symbol id="orcid-icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#a6ce39"/><circle cx="6.6" cy="6.6" r="1.2" fill="white"/><path fill="white" d="M5.6 9h2v10h-2z"/><path d="M11 6h3a6 6 0 0 1 0 12h-3z" fill="none" stroke="white" stroke-width="1.8"/></symbol>
+<symbol id="linkedin-icon" viewBox="0 0 24 24"><rect width="24" height="24" rx="3" fill="#0a66c2"/><circle cx="5.7" cy="6" r="1.6" fill="white"/><path fill="white" d="M4.3 9h2.8v11H4.3zM10 9h2.7v1.5c1.7-2.6 7-2.3 7 2.9V20h-2.8v-6c0-3-4-2.8-4 .2V20H10z"/></symbol>
+<symbol id="rg-icon" viewBox="0 0 24 24"><rect width="24" height="24" rx="3" fill="#00a99d"/><text x="3" y="17" fill="white" font-size="15" font-family="Georgia,serif" font-weight="bold">R</text><text x="14" y="10" fill="white" font-size="9" font-family="Georgia,serif">G</text></symbol>
+</svg>
+<header><div class="wrap"><a class="brand" href="#about">Shahid's Homepage</a><nav aria-label="Main navigation"><a href="#about" data-page="about" aria-current="page">About</a><a href="#research" data-page="research">Research</a><a href="#publications" data-page="publications">Publications</a></nav></div></header>
+<main class="wrap">
+<aside class="profile" aria-label="Researcher profile">
+<img class="portrait" id="portrait" src="portrait.jpg" alt="Shahid Amin Naeem" width="160" height="160">
+<h1>Shahid Amin Naeem</h1>
+<p class="specialties">Particle Physics | Nuclear Physics | Computational Physics | Data Analysis | Numerical Simulations | Machine Learning</p>
+<p class="affiliation">Georgia State University<br>Atlanta, United States</p>
+<ul class="social">
+<li><a href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en"><svg class="icon" aria-hidden="true"><use href="#scholar-icon"/></svg>Google Scholar</a></li>
+<li><a href="https://orcid.org/0009-0009-7428-3713"><svg class="icon" aria-hidden="true"><use href="#orcid-icon"/></svg>ORCID</a></li>
+<li><a href="https://www.linkedin.com/in/shahidaminnaeem/"><svg class="icon" aria-hidden="true"><use href="#linkedin-icon"/></svg>LinkedIn</a></li>
+<li><a href="https://www.researchgate.net/profile/Shahid-Amin-Naeem"><svg class="icon" aria-hidden="true"><use href="#rg-icon"/></svg>ResearchGate</a></li>
+</ul></aside>
+<div class="content">
+<section id="about" aria-labelledby="about-heading"><h2 id="about-heading">About</h2>
+<p>Shahid is a researcher in high-energy nuclear and particle physics, specializing in Scientific Machine Learning, Statistical Modeling, and Scientific Computing. His research at the Relativistic Heavy Ion Collider (RHIC) at Brookhaven National Laboratory (BNL) centers on understanding the universe’s most fundamental mysteries. Shahid combines expertise in numerical simulations and data-driven methodologies to develop innovative solutions for complex scientific challenges. With a background in high-energy physics and research development, he is committed to advancing scientific knowledge and creating a meaningful impact within the scientific community.</p>
+<div class="connect"><h3>Let’s Connect</h3><p>I’m passionate about collaboration, scientific outreach, and interdisciplinary research. Over the years, I’ve mentored students, contributed to research projects, and engaged with scientific communities to promote open knowledge.</p><p>Whether it’s co-authoring a paper, developing computational tools, or exploring new research directions, I’m always open to meaningful collaboration.</p><a class="button" href="https://www.linkedin.com/in/shahidaminnaeem/"><svg class="icon" aria-hidden="true"><use href="#linkedin-icon"/></svg>Connect on LinkedIn</a></div>
+</section>
+<section id="research" aria-labelledby="research-heading"><h2 id="research-heading">Research interests</h2>
+<article class="research-item"><h3>QCD Spin Physics &amp; Nucleon Structure</h3><p>Transverse single-spin asymmetries (TSSA), transverse momentum dependent (TMD) distributions, proton spin structure, Sivers/Collins effects.</p></article>
+<article class="research-item"><h3>Jet Physics</h3><p>Inclusive jet and dijet production, jet substructure, jet reconstruction algorithms, acoplanarity studies.</p></article>
+<article class="research-item"><h3>Electron-Ion Collider (EIC) Physics</h3><p>Deep inelastic scattering, gluon/sea-quark imaging, ePIC detector performance and early-science studies.</p></article>
+<article class="research-item"><h3>Flavor Physics &amp; Standard Model Phenomenology</h3><p>Heavy-quark expansion, bulk observables, collision-geometry and nuclear-deformation effects, AMPT and other heavy-ion transport models, pure/semi-leptonic decay observables and tests of the Standard Model.</p></article>
+<article class="research-item"><h3>Physics Beyond the Standard Model</h3><p>Exotic matter, magnetic monopole searches, early-universe phase transitions and electroweak symmetry breaking.</p></article>
+<article class="research-item"><h3>Computational &amp; Statistical Methods for HEP</h3><p>Large-scale experimental data analysis, systematic-uncertainty estimation, Bayesian and iterative unfolding, detector simulation (GEANT4), calibration and reconstruction in collider data.</p></article>
+<article class="research-item"><h3>Scientific Machine Learning</h3><p>Data-driven solutions for complex scientific problems, particle identification, event reconstruction, background subtraction, predictive analytics, and statistical analysis.</p></article>
+</section>
+<section id="publications" aria-labelledby="publications-heading"><div class="pub-header"><h2 id="publications-heading">Publications</h2><a class="button" href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en"><svg class="icon" aria-hidden="true"><use href="#scholar-icon"/></svg>Google Scholar</a></div>
+<p>Research publications and citation metrics from my Google Scholar profile.</p>
+<div id="scholar-content" aria-live="polite"><div class="empty"><p>Visit my Google Scholar profile for my publication list and citation metrics.</p></div></div>
+<p class="sync-status" id="sync-status"></p>
+<noscript><p><a href="https://scholar.google.com/citations?user=IRyoBd8AAAAJ&amp;hl=en">View publications on Google Scholar</a></p></noscript>
+</section>
+</div></main><footer><div class="wrap">© <span id="year">2026</span> Shahid Amin Naeem</div></footer>
+<script>
+const portrait=document.getElementById('portrait');
+portrait.addEventListener('error',()=>{if(!portrait.dataset.fallback){portrait.dataset.fallback='true';portrait.src='https://github.com/shahidaminnaeem.png?size=320';}else{portrait.hidden=true;}});
+function showPage(){const id=['about','research','publications'].includes(location.hash.slice(1))?location.hash.slice(1):'about';document.querySelectorAll('.content>section').forEach(s=>s.hidden=s.id!==id);document.querySelectorAll('[data-page]').forEach(a=>{if(a.dataset.page===id)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});document.title=(id.charAt(0).toUpperCase()+id.slice(1))+" | Shahid Amin Naeem";}
+window.addEventListener('hashchange',showPage);showPage();document.getElementById('year').textContent=new Date().getFullYear();
+function element(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
+function safeURL(value){try{const u=new URL(value);return u.protocol==='https:'?u.href:null;}catch{return null;}}
+async function loadScholar(){try{const response=await fetch('data/scholar.json',{cache:'no-store'});if(!response.ok)throw Error();const data=await response.json();if(!data.updated_at||!Array.isArray(data.articles)||!data.articles.length)return;
+const root=document.getElementById('scholar-content');root.replaceChildren();const metrics=element('div',undefined,'metrics');[['Citations',data.metrics?.citations],['h-index',data.metrics?.h_index],['i10-index',data.metrics?.i10_index]].forEach(([label,value])=>{const box=element('div',undefined,'metric');box.append(element('strong',value??'—'),element('span',label));metrics.append(box);});root.append(metrics);
+const controls=element('div',undefined,'tools'),search=element('input'),sort=element('select');search.type='search';search.placeholder='Search publications';search.setAttribute('aria-label','Search publications');sort.setAttribute('aria-label','Sort publications');[['year','Newest first'],['citations','Most cited']].forEach(([value,label])=>{const o=element('option',label);o.value=value;sort.append(o);});controls.append(search,sort);const list=element('div');root.append(controls,list);
+function render(){const q=search.value.toLowerCase();const rows=data.articles.filter(a=>[a.title,a.authors,a.publication,a.year].join(' ').toLowerCase().includes(q)).sort((a,b)=>sort.value==='citations'?(Number(b.citations)||0)-(Number(a.citations)||0):(Number(b.year)||0)-(Number(a.year)||0));list.replaceChildren();if(!rows.length)list.append(element('p','No matching publications.'));rows.forEach(a=>{const article=element('article',undefined,'paper'),heading=element('h3');const url=safeURL(a.link);if(url){const link=element('a',a.title);link.href=url;heading.append(link);}else heading.textContent=a.title;article.append(heading,element('p',a.authors||''),element('p',a.publication||''));const meta=element('div',undefined,'meta');meta.append(document.createTextNode((a.year||'Year unavailable')+' · '));const citeURL=safeURL(a.citations_link);if(citeURL){const link=element('a','Cited by '+(a.citations??0));link.href=citeURL;meta.append(link);}else meta.append(document.createTextNode('Cited by '+(a.citations??0)));article.append(meta);list.append(article);});}search.addEventListener('input',render);sort.addEventListener('change',render);render();const d=new Date(data.updated_at);document.getElementById('sync-status').textContent='Source: Google Scholar · Last successful update: '+(isNaN(d)?'date unavailable':d.toLocaleString());
+}catch{/* The Scholar profile link remains available when data is unavailable. */}}
+loadScholar();
+</script>
+</body></html>
